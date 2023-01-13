@@ -50,6 +50,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     end
 
     def save_user
+      @user.skip_confirmation!
       @user.save || @user.save_requiring_finish_signup
     end
 end
