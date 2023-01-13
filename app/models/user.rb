@@ -136,7 +136,7 @@ class User < ApplicationRecord
     #oauth_date_of_birth = auth.extra.raw_info.all.dig("urn:oid:0.9.2342.19200300.100.1.8", 0).to_s
     #oauth_gender = auth.extra.raw_info.all.dig("urn:oid:0.9.2342.19200300.100.1.9", 0).to_s
     #lacode comes from list of councils registered with IS
-    oauth_lacode_ref          = "9079"
+    oauth_lacode_ref          = "9064"
     oauth_lacode_confirmed    = oauth_lacode == oauth_lacode_ref
     oauth_user            = User.find_by(email: oauth_email) if oauth_email_confirmed
 
