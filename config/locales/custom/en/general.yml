@@ -221,7 +221,7 @@ en:
       locale: "Language:"
       management: Management
       moderation: Moderation
-      valuation: Valuation
+      valuation: Evaluation
       officing: Polling officers
       help: Help
       my_account_link: My account
@@ -811,7 +811,7 @@ en:
       proposals: Proposals
       proposals_status: Status
       debates: Debates
-      budget_investments: Budget investments
+      budget_investments: Project Proposal
       comments: Comments
       actions: Actions
       filters:
@@ -915,7 +915,7 @@ en:
     content_title:
       proposal: "Proposal"
       debate: "Debate"
-      budget_investment: "Budget investment"
+      budget_investment: "Project Proposal"
   admin/widget:
     header:
       title: Administration
