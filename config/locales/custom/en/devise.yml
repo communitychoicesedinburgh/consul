@@ -29,8 +29,8 @@ en:
       unlock_instructions:
         subject: "Unlocking instructions"
     omniauth_callbacks:
-      failure: "Your account has been registered. Please sign in now."
-      success: "Successfully identified as %{kind}."
+      failure: "Your account has been registered using your myaccount data. Please sign into this site now."
+      success: "Thank you for signing in using myaccount."
     passwords:
       no_token: "You cannot access this page except through a password reset link. If you have accessed it through a password reset link, please check that the URL is complete."
       send_instructions: "In a few minutes, you will receive an email containing instructions on resetting your password."
